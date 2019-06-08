@@ -1,0 +1,1 @@
+﻿/* erro sintatico comentario sem */
