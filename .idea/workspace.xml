@@ -13,7 +13,7 @@
     <session id="574143803">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="3" />
@@ -47,75 +47,153 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-271307078">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="adawd" value="1" />
+          <entry key="asdaw" value="1" />
+          <entry key="awdasd" value="1" />
+          <entry key="class" value="3" />
+          <entry key="java" value="7" />
+          <entry key="l" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="7" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="asdaw" value="41" />
+          <entry key="awdasd" value="12" />
+          <entry key="class" value="10" />
+          <entry key="java" value="2548" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="2548" />
+          <entry key="PLAIN_TEXT" value="53" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-821126742">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="10831" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10831" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalisadorLexico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Error.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalisadorSintatico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolo.java">
+        <entry file="file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ManipuladorDeArquivo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="175">
+              <caret line="267" column="63" lean-forward="true" selection-start-line="267" selection-start-column="63" selection-end-line="267" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Simbolo.java">
+        <entry file="file://$PROJECT_DIR$/src/LC/AnalisadorLexico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="181">
+              <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LC/TabelaDeSimbolo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1143">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LC/ExpressaoInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LC/Simbolo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LC/LC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/Compilador/LC/Error.class">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -129,36 +207,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>9</find>
-      <find>*'</find>
-      <find>barra</find>
-      <find>Tokens.BARRA</find>
-      <find>&gt;</find>
-      <find>&lt;'</find>
-      <find>s = 6</find>
-      <find>s = 2</find>
-      <find>isDigit</find>
-      <find>currentCharIndex++</find>
-      <find>currentchar +</find>
-      <find>for each</find>
-      <find>s = 4</find>
-      <find>handleError(</find>
-      <find>handleerror</find>
-      <find>.name()</find>
+      <find>verificar</find>
+      <find>char x ch</find>
+      <find>s = 7</find>
       <find>s = 8</find>
+      <find>gettipo(</find>
+      <find>character</find>
+      <find>ischara</find>
+      <find>isinteiro</find>
+      <find>string</find>
+      <find>'0'</find>
+      <find>aritmetica</find>
+      <find>casatoken(IGU</find>
+      <find>getTipo(</find>
+      <find>validar al</find>
+      <find>validar alexe</find>
+      <find>token n</find>
+      <find>s = 9</find>
+      <find>validar alexei</find>
+      <find>procL</find>
+      <find>ID_JA_DECLARADO_SEMANTICO</find>
+      <find>devolve(</find>
+      <find>ID_JA_DECLA</find>
+      <find>procB</find>
       <find>return null</find>
-      <find>FIM_DE_ARQUIVO_NAO_ESPERADO_SINTATICO</find>
-      <find>currentcharIndex++</find>
-      <find>currentcharIndex</find>
-      <find>currentcharindex</find>
-      <find>CHAR</find>
-      <find>x end</find>
-      <find>.CHAR</find>
-      <find>currentLexemaIndex = TabelaDeSimbolo.Tokens.KVALUE.tByte;</find>
-      <find>'\''</find>
-      <find>currentchar</find>
-      <find>currentLexemaIndex</find>
-      <find>IGUAL</find>
+      <find>procC</find>
+      <find>valk</find>
+      <find>TAMANHO_MAXIMO_EXCEDIDO_SEMANTICO</find>
+      <find>tamanho_m</find>
+      <find>valk &gt;</find>
+      <find>isarraydein</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -172,10 +250,24 @@
         <option value="$PROJECT_DIR$/src/TabelaDeSimbolo.java" />
         <option value="$PROJECT_DIR$/src/ManipuladorDeArquivo.java" />
         <option value="$PROJECT_DIR$/src/Simbolo.java" />
+        <option value="$PROJECT_DIR$/src/LC/awdasd" />
+        <option value="$PROJECT_DIR$/src/LC/asdaw" />
+        <option value="$PROJECT_DIR$/src/LC/adawd" />
+        <option value="$PROJECT_DIR$/src/LC/Expressao.java" />
+        <option value="$PROJECT_DIR$/src/LC/awcdasc.java" />
+        <option value="$PROJECT_DIR$/src/LC/ValoresInfo.java" />
+        <option value="$PROJECT_DIR$/src/LC/awcdascd.java" />
+        <option value="$PROJECT_DIR$/src/LC/Error.java" />
+        <option value="$PROJECT_DIR$/src/LC/TabelaDeSimbolo.java" />
+        <option value="$PROJECT_DIR$/src/LC/Simbolo.java" />
+        <option value="$PROJECT_DIR$/src/LC/ExpressaoInfo.java" />
+        <option value="$PROJECT_DIR$/src/LC/LC.java" />
+        <option value="$PROJECT_DIR$/src/LC/AnalisadorLexico.java" />
+        <option value="$PROJECT_DIR$/src/LC/AnalisadorSintatico.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -186,32 +278,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Compilador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Compilador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Compilador" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Compilador" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559663346525" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Compila_terminal" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560140650819" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro\Desktop\Compila_terminal\src\LC" />
       <recent name="C:\Users\Pedro\Desktop\Compilador\src" />
     </key>
   </component>
@@ -227,7 +315,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LC">
+    <configuration name="LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC.LC" />
+      <module name="Compilador" />
+      <option name="PROGRAM_PARAMETERS" value="exL2.l exL1.asm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Compilador" />
@@ -238,8 +340,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.LC" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -261,7 +368,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,12 +378,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3253796" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,34 +395,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -334,6 +413,96 @@
           <line>361</line>
           <properties />
           <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorLexico.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>757</line>
+          <properties />
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorLexico.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>763</line>
+          <properties />
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>760</line>
+          <properties />
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>765</line>
+          <properties />
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>769</line>
+          <properties />
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>772</line>
+          <properties />
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>775</line>
+          <properties />
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>266</line>
+          <properties />
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="412" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -377,58 +546,95 @@
         <watch expression="currentLine.length()" language="JAVA" />
         <watch expression="currentLine" language="JAVA" />
         <watch expression="currentCharIndex + 2" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela.get(TabelaDeSimbolo.Tokens.getByValue(currentLexemaIndex))" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela.get(TabelaDeSimbolo.Tokens.getByValue(currentLexemaIndex))" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela" language="JAVA" />
+        <watch expression="tabela.size()-1" language="JAVA" />
+        <watch expression="tabela.get(tabela.size()-1)" language="JAVA" />
+        <watch expression="tabela.get(tabela.size()-2)" language="JAVA" />
+        <watch expression="tabela.get(tabela.size()-1)" language="JAVA" />
+        <watch expression="(byte) " language="JAVA" />
+        <watch expression="tabela.get((byte) tabela.size()-1)" language="JAVA" />
+        <watch expression="tabela.get((byte) tabela.size()-2)" language="JAVA" />
+        <watch expression="tabela.get((byte) 1)" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()-1))" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()+1))" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()))" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()))" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()))" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()))" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela.get(TabelaDeSimbolo.Tokens.getByValue(currentLexemaIndex).tByte)" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela.get(TabelaDeSimbolo.Tokens.getByValue(currentLexemaIndex).tByte)" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.Tokens.getByValue(currentLexemaIndex).tByte" language="JAVA" />
+        <watch expression="tabela.get((byte) (tabela.size()))" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.tabela.get(currentLexemaIndex)" language="JAVA" />
+        <watch expression="TabelaDeSimbolo.instance.buscarToken(identificadorLexema.toString()).tByte" language="JAVA" />
+        <watch expression="identificadorLexema.toString()" language="JAVA" />
+        <watch expression="Tokens.getByValue(s.tByte)" language="JAVA" />
+        <watch expression="tabela.get(token.tByte)" language="JAVA" />
+        <watch expression="isInteiro()" language="JAVA" />
+        <watch expression="isHexadecimal(currentLine.charAt(currentCharIndex+1)" language="JAVA" />
+        <watch expression="isHexadecimal(currentLine.charAt(currentCharIndex+2)" language="JAVA" />
+        <watch expression="currentLine.charAt(currentCharIndex+2" language="JAVA" />
+        <watch expression="tmpSimbolo.tipo" language="JAVA" />
+        <watch expression="getTipo(anLexico.currentLexema)" language="JAVA" />
+        <watch expression="getTipo(anLexico.currentLexema)" language="JAVA" />
+        <watch expression="getTipo(0x5E)" language="JAVA" />
+        <watch expression="getTipo(&quot;0x5E&quot;)" language="JAVA" />
+        <watch expression="&quot;adsawcodmawcjodaw&quot;.length()" language="JAVA" />
+        <watch expression="tmpSimbolo.tamanho &lt; tmpExp.tamanho + 1" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>tabela.get(token)</expression-string>
+        <expression-string>tmpSimbolo.tamanho &lt; tmpExp.tamanho + 1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>identificadorLexema.toString()</expression-string>
+        <expression-string>&quot;adsawcodmawcjodaw&quot;.length()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>TabelaDeSimbolo.instance.buscarToken(identificadorLexema.toString()).tByte</expression-string>
+        <expression-string>( valK &gt; 4000 &amp;&amp; tmpSimbolo.isCharacter())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentCharIndex + 2</expression-string>
+        <expression-string>currentLexemaIndex</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentLine</expression-string>
+        <expression-string>TabelaDeSimbolo.instance.tabela.get(currentLexemaIndex);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentLine.length()</expression-string>
+        <expression-string>getTipo(&quot;0x5E&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tokens[8].name()</expression-string>
+        <expression-string>getTipo(0x5E)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentChar</expression-string>
+        <expression-string>getTipo(anLexico.currentLexema)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tokens[0].name().equals(lexema)</expression-string>
+        <expression-string>tmpSimbolo.tipo</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>lexema</expression-string>
+        <expression-string>currentLine.charAt(currentCharIndex+2</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -442,74 +648,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="200" column="6" lean-forward="true" selection-start-line="200" selection-start-column="6" selection-end-line="200" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalisadorLexico.java" />
+    <entry file="file://$PROJECT_DIR$/src/AnalisadorSintatico.java" />
+    <entry file="file://$PROJECT_DIR$/src/Error.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ManipuladorDeArquivo.java" />
+    <entry file="file://$PROJECT_DIR$/src/Simbolo.java" />
+    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolo.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Compilador/AnalisadorLexico.class" />
+    <entry file="file://$PROJECT_DIR$/src/LC/exL3.l" />
+    <entry file="file://$PROJECT_DIR$/src/LC/awdasd" />
+    <entry file="file://$PROJECT_DIR$/src/LC/asdaw" />
+    <entry file="file://$PROJECT_DIR$/src/LC/adawd" />
+    <entry file="file://$PROJECT_DIR$/src/LC/Expressao.java" />
+    <entry file="file://$PROJECT_DIR$/src/LC/ManipuladorDeArquivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#0#3903#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalisadorLexico.java">
+    <entry file="file://$PROJECT_DIR$/src/classes/LC/LC.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC/awcdasc.java" />
+    <entry file="file://$PROJECT_DIR$/src/LC/awcdascd.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Compilador/LC/LC.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalisadorSintatico.java">
+    <entry file="file://$PROJECT_DIR$/src/LC/Error.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Error.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="3145">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/out/production/Compilador/LC/Error.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalisadorSintatico.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <folding>
+            <element signature="e#0#10107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ManipuladorDeArquivo.java">
+    <entry file="file://$PROJECT_DIR$/Compilador.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC/Simbolo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC/ExpressaoInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simbolo.java">
+    <entry file="file://$PROJECT_DIR$/src/LC/TabelaDeSimbolo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="-1143">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TabelaDeSimbolo.java">
+    <entry file="file://$PROJECT_DIR$/src/LC/LC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="268">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC/AnalisadorLexico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LC/AnalisadorSintatico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="267" column="63" lean-forward="true" selection-start-line="267" selection-start-column="63" selection-end-line="267" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,12 @@
+package LC;
+public class Error {
+    public interface ErrorHandler {
+        void handleError(ErrorTypes type, String lexema);
+    }
+
+    public enum ErrorTypes {
+        CARACTERE_INVALIDO_LEXICO, LEXEMA_NAO_IDENTIFICADO_LEXICO, FIM_DE_ARQUIVO_NAO_ESPERADO,
+        TOKEN_NAO_ESPERADO_SINTATICO, ID_NAO_DECLARADO_SEMANTICO, ID_JA_DECLARADO_SEMANTICO,
+        CLASSE_DE_ID_INCOMPATIVEL_SEMANTICO, TIPOS_INCOMPATIVEIS_SEMANTICO, TAMANHO_MAXIMO_EXCEDIDO_SEMANTICO
+    }
+}

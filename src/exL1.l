@@ -5,23 +5,31 @@
 /* deve funcionar, lexico ** */
 
 
+   Var integer n[3], max;
 
 
+Var integer n;
+ChAr nome[40] = 'a';
 Const 
 
 
 _.MAXITER
 =
 10;
+Const M_.AX_.ITER, id =10;
 Const MAXITER= 0;
+ChAr nome[10] = "Stringzao";
 Const MAXITER = 0xAA;
-Var integer n[3], /*   */ may;
+Const MAXITER2= 10 / 10 * 10 + 10 - 10 and 10 % 10 or 10 > 10
+< 10 <= 10 >= 10 <> 10 - 10 n;
+Var integer n[3], /*   */ max;
 Const MAXITER= '@';
 Const MAXITER= "@";
 Const MAX0000ITER= "'@'";
+VaR integer 
 
+n[3], max = 10;
 
-var integer max = 11;
 /* Programa Principal */
 
   write
