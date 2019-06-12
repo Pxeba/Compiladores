@@ -230,26 +230,16 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
             casaToken(IGUAL);
             tmpExp = procExp();
             if(tmpSimbolo.tipo != tmpExp.tipo) {
-
-                if(tmpSimbolo.isCharacter()) {
-//                    checkExpInteiraOuCharacter(tmpExp); //validar alexei [3] [5]
-                }
-
-                else if (tmpSimbolo.isArrayDeCharacter() && flagPosVet == 0) {
-                    if(!tmpExp.isArrayDeCharacter()) {
-                        handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
+                handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
+            } else {
+                if(tmpSimbolo.isArrayDeCharacter() && flagPosVet == 0) {
+                    if(tmpSimbolo.tamanho < tmpExp.tamanho - 1) {
+                        handleError(Error.ErrorTypes.TAMANHO_MAXIMO_EXCEDIDO_SEMANTICO, null);
                     }
-                    else {
-                        if(tmpExp.isArrayDeCharacter()) {
-                            if(tmpSimbolo.tamanho < tmpExp.tamanho -1) {
-                                handleError(Error.ErrorTypes.TAMANHO_MAXIMO_EXCEDIDO_SEMANTICO, null);
-                            }
-                        }
-                     }
                 }
 
                 else if(tmpSimbolo.isArrayDeCharacter() && flagPosVet == 1) {
-                    checkExpInteiraOuCharacter(tmpExp);
+                    checkExpCharacter(tmpExp);
                 }
 
                 else if(tmpSimbolo.isInteiro()) {
@@ -262,12 +252,6 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
 
                 else if(tmpSimbolo.isArrayDeInteiro() && flagPosVet == 1) {
                     checkExpInteira(tmpExp);
-                }
-            } else {
-                if(tmpSimbolo.isArrayDeCharacter() && flagPosVet == 0) {
-                    if(tmpSimbolo.tamanho < tmpExp.tamanho - 1) {
-                        handleError(Error.ErrorTypes.TAMANHO_MAXIMO_EXCEDIDO_SEMANTICO, null);
-                    }
                 }
             }
 
@@ -395,9 +379,8 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
 
             // [6]
             if(tmpSimbolo.tipo != getTipo(anLexico.currentLexema)) {
-                if (getTipo(anLexico.currentLexema) != Simbolo.Tipos.INT || tmpSimbolo.tipo != Simbolo.Tipos.CHAR) {
-                    handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
-                }
+                handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
+
             }
 
             tmpSimbolo.valor = anLexico.currentLexema;
@@ -491,8 +474,13 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
 
             if(tokOperador == SOMA || tokOperador == MENOS ) {
                 if((exp1.tipo == exp2.tipo) && exp1.tamanho == 0 && exp2.tamanho == 0){ // não pode ser String, apenas char e int
-                    checkExpInteiraOuCharacter(exp1);
-                    checkExpInteiraOuCharacter(exp2);
+                    if(exp1.isCharacter()) {
+                        checkExpCharacter(exp1);
+                        checkExpCharacter(exp2);
+                    } else {
+                        checkExpInteira(exp1);
+                        checkExpInteira(exp2);
+                    }
                 } else {
                     handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
                 }
@@ -564,6 +552,8 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
 
             else {
                 if(simboloTmp.isArrayDeCharacter()) {
+                    return new ExpressaoInfo(simboloTmp.tipo, simboloTmp.valor, simboloTmp.tamanho);
+                } else if(simboloTmp.isArrayDeInteiro()) {
                     return new ExpressaoInfo(simboloTmp.tipo, simboloTmp.valor, simboloTmp.tamanho);
                 } else {
                     handleError(Error.ErrorTypes.ID_NAO_DECLARADO_SEMANTICO, simboloTmp.lexema);
@@ -644,9 +634,9 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
             handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
     }
 
-    public void checkExpInteiraOuCharacter(ExpressaoInfo exp)
+    public void checkExpCharacter(ExpressaoInfo exp)
     {
-        if ( (!exp.isInteiro()) && (!exp.isCharacter())  )
+        if ( !exp.isCharacter()  )
             handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
     }
 
@@ -659,11 +649,11 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
                 return Simbolo.Tipos.CHAR;
             }
             else {
-//                if(KVALUE.startsWith("0x")) {   validar alexei [3] [5]
-//                    return Simbolo.Tipos.CHAR;
-//                } else {
+                if(KVALUE.startsWith("0x")) {
+                    return Simbolo.Tipos.CHAR;
+                } else {
                     return Simbolo.Tipos.INT;
-//                }
+                }
             }
         }
     }
@@ -683,20 +673,11 @@ public class AnalisadorSintatico implements Error.ErrorHandler {
 
     public void operacaoAritmetica(ExpressaoInfo exp1, ExpressaoInfo exp2, TabelaDeSimbolo.Tokens tokOpr) {
         if(exp1.tipo != exp2.tipo) {
-//            if( !(exp1.isCharacter() && exp2.isInteiro()) && !(exp1.isInteiro() && exp2.isCharacter())) {
-//                handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null);
-//            }
             handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null); // [2] validar alexei
         } else {
             if(exp1.tamanho > 0 || exp2.tamanho > 0) {
-                if(exp1.tamanho > 0 && exp2.tamanho > 0 && exp1.tipo == Simbolo.Tipos.CHAR && (tokOpr == IGUAL || tokOpr == SOMA)) { // [1] validar alexei
-                    // strings(==)
-                    if(tokOpr == IGUAL) {
-                        exp1.tipo = Simbolo.Tipos.BOOL;
-                    } else { // SOMA
-                        exp1.tamanho = exp1.tamanho + exp2.tamanho;
-                        exp1.valor = exp1.valor + exp2.valor;
-                    }
+                if(exp1.tamanho > 0 && exp2.tamanho > 0 && exp1.tipo == Simbolo.Tipos.CHAR && (tokOpr == IGUAL)) { // [1] validar alexei
+                    exp1.tipo = Simbolo.Tipos.BOOL;
                 } else {
                     handleError(Error.ErrorTypes.TIPOS_INCOMPATIVEIS_SEMANTICO, null); // vetores + string(opk - ==)
                 }
